@@ -1,0 +1,11 @@
+node_modules
+www
+android
+ios
+cordova
+capacitor
+.angular
+.vscode
+.editorconfig
+.cache
+

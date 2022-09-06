@@ -1,0 +1,24 @@
+<h1>Component One</h1>
+<p>Create a user below:</p>
+<div>
+    <p>Username
+    <input type="text" (input)="updateUsername($event.target)"></p>
+</div>
+<div>
+    <p>FirstName
+    <input type="text" (input)="updateFirstName($event.target)"></p>
+</div>
+<div>
+    <p>LastName
+    <input type="text" (input)="updateLastName($event.target)"></p>
+</div>
+<div>
+    <p>Age
+    <input type="text" (input)="updateAge($event.target)"></p>
+</div>
+
+<button (click)="onCreateUser()">Create User</button>
+
+<button (click)="onClearUsers()">Clear Users</button>
+<app-comp-two></app-comp-two>
+<app-comp-three></app-comp-three>

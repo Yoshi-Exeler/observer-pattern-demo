@@ -1,0 +1,4 @@
+<h2>Component Two</h2>
+<div *ngFor="let user of users$ | async">
+    {{ user.Username }} aka {{ user.FirstName }}{{ user.LastName }} ({{ user.Age }})
+</div>
